@@ -4,11 +4,10 @@ export default function ProductTab() {
   return (
     <div>
       <Product
-        Name="Laptop"
-        Discription="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem reprehenderit iure harum. Repellat consequuntur distinctio id veniam suscipit! Unde officiis quidem vitae magnam illo quo fuga expedita, minus ut repudiandae."
+        name="Laptop"
+        price = {55}
       />
-      <Product />
-      <Product />
+      <Product name="Phone" price = {45000} />
     </div>
   );
 }
