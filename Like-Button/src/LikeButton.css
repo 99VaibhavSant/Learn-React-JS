@@ -1,0 +1,15 @@
+.main {
+    background-image: url("assets/Img.png");
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* ADD THESE */
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+}
